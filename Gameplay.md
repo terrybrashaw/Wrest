@@ -10,7 +10,7 @@ Basic movement:
 Advanced movement:
 - **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
 
-Movement facts:
+Movement mechanics:
 - You can only run forward.
 - Moving while crouching is completely silent; produces no footstep noise. 
 - Crouching while mid-air pulls your legs up while your upper-body and head are kept in the same position. This detail is important because:
@@ -25,10 +25,15 @@ Movement facts:
 
 ### Gunplay ###
 - Recoil does not reset automatically.
-- 2 modes of shooting, hipfire and ADS (aiming-down-sights).
-- Hipfire is pinpoint accurate; massive recoil.
-- ADS is pinpoint accurate; reduced recoil.
+- 2 modes of shooting: hipfire and ADS (aiming-down-sights).
 - Crosshairs will show for hipfiring.
+- Hipfire:
+    - 100% accurate
+    - Massive recoil
+- ADS:
+    - 100% accurate
+    - Normal recoil
+    - Slight amount of zoom
 
 
 ### Ammo Mechanics ###
@@ -39,7 +44,6 @@ Movement facts:
 - Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
 - (*Maybe*) Instead of deleting leftover ammo, it's converted to equivalent raw materials.
 - Magazines each take up 1 inventory slot.
-- All magazines contain tracers every third shot; as well as three consecutive tracers at the bottom.
 
 Why?
 - Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
