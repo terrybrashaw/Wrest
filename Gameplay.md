@@ -1,9 +1,14 @@
+# Gameplay #
+
 ### Movement ###
 Basic movement:
  - Running (100% movement speed)
  - Walking (*Forward* @ 49%, *Sidestrafing* @ 49%, *Backwards* @ 34%)
  - Crouching (29%)
  - Jumping
+
+Advanced movement:
+- **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
 
 Movement facts:
 - You can only run forward.
@@ -16,9 +21,6 @@ Movement facts:
 - You cannot stand on another player or use them in any way to boost onto higher areas.
 - Falling >4 body lengths will break your leg, causing 55% damage and applying a `slowed` debuff for 25 seconds. The amount of damage dealt does not vary between 4-12 body lengths.
 - Falling >12 body lengths kills you instantly.
-
-Advanced movement:
-- **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
 
 
 ### Gunplay ###
@@ -72,7 +74,7 @@ Tools and weapons:
 | Auto Rifle | 35     | 130m  | 0.125s   | 3s          | 30   | 8      | Automatic | Hitscan          |
 | Bolt Rifle | 63     | 250m  | 2.2s     | 5s          | 3    | 14     | Single    | Hitscan          |
 
-The shotgun's spray will have a set pattern similar to Reflex or Quake.
+The shotgun's spray pattern will be similar to Reflex.
 
 Weapon attachments:
  - Red Dot Sight
@@ -85,3 +87,24 @@ Grenades:
  - Molotov
 
 Grenade physics will be identical to CS:GO.
+
+### Hotbar and Inventory ###
+6 slots for your hotbar.
+24 slots for your inventory.  
+30 slots total.
+
+Moving items in your inventory:
+ - Move an item by dragging and dropping onto an empty slot.
+ - Swap an item by dragging and dropping onto another item.
+ - Drop an item by dragging and dropping outside of the inventory window.
+
+Helpful item movement mechanics:
+ - Split a stack of items in half by holding `Shift` before dragging and dropping.
+ - Pick up 1 from a stack of items by holding `Ctrl` before dragging and dropping.
+ - Pick up all-but-1 from a stack of items by holding `Alt` before dragging and dropping.
+ - To "drag and drop" items, they can either be:
+  - Click and hold while moving, release to drop.
+  - Click to pick up, click to drop.
+
+Quick-using items in your inventory: 
+ - Use an item by right clicking it. Only some items will have a quick-action, for example: food will have an "Eat" action and guns will have an "Unload" action.
