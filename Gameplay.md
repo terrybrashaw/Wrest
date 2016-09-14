@@ -17,7 +17,7 @@ Movement facts:
     - It allows you to *crouch-jump* onto high places.
     - Your head movement should stay predictable to enemies, even when you're jumping and crouch-spamming.
 - Slopes angled at >75 degrees are unclimbable.
-- You can safely fall at a distance of <4 body lengths with no penalty.
+- You can safely fall a distance of <4 body lengths with no penalty.
 - You cannot stand on another player or use them in any way to boost onto higher areas.
 - Falling >4 body lengths will break your leg, causing 55% damage and applying a `slowed` debuff for 25 seconds. The amount of damage dealt does not vary between 4-12 body lengths.
 - Falling >12 body lengths kills you instantly.
@@ -32,9 +32,9 @@ Movement facts:
 
 
 ### Ammo Mechanics ###
-- All gun ammunitian exists in magazine form. There are no individual bullets.
+- All gun ammunition exists in magazine form. There are no individual bullets.
 - Magazines *always* contain max capacity.
-- Magaines can be crafted or found in loot boxes.
+- Magazines can be crafted or found in loot boxes.
 - Reloading a gun consumes an entire magazine from your inventory.
 - Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
 - (*Maybe*) Instead of deleting leftover ammo, it's converted to equivalent raw materials.
