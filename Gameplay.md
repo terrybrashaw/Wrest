@@ -52,6 +52,7 @@ Armor slots:
  - Feet
 
 Armor tiers:
+
 |          | Head  | Body  | Legs  | Feet  |
 | -------- | ----- | ----- | ----- | ----- |
 | Cloth    | 10-10 | 10-10 | 5-5   | 8-8   |
@@ -59,6 +60,7 @@ Armor tiers:
 | Kevlar   | 25-25 | 30-30 | 15-15 | 15-15 |
 
 Tools and weapons:
+
 |            | Damage | Range | Cooldown | Reload Time | Ammo | Recoil | Mode      | Projectile Speed |
 | ---------- | ------ | ----- | -------- | ----------- | ---- | ------ | --------- | ---------------- |
 | Hammer     | -      | -     | -        | -           | -    | -      | -         | -                |
