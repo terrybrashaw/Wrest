@@ -1,7 +1,7 @@
 ### Environment ###
-Day:Night ratio will be around 7:3
+Day:Night ratio is around 7:3
 
-Nighttime atmosphere will be equivalent to *Death Valley* in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires.
+Nighttime atmosphere is equivalent to *Death Valley* in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires.
 
 
 ### In-game Overlays ###

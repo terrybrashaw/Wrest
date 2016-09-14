@@ -42,7 +42,6 @@ Movement mechanics:
 - Magazines can be crafted or found in loot boxes.
 - Reloading a gun consumes an entire magazine from your inventory.
 - Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
-- (*Maybe*) Instead of deleting leftover ammo, it's converted to equivalent raw materials.
 - Magazines each take up 1 inventory slot.
 
 Why?
@@ -78,7 +77,7 @@ Tools and weapons:
 | Auto Rifle | 35     | 130m  | 0.125s   | 3s          | 30   | 8      | Automatic | Hitscan          |
 | Bolt Rifle | 63     | 250m  | 2.2s     | 5s          | 3    | 14     | Single    | Hitscan          |
 
-The shotgun's spray pattern will be similar to Reflex.
+The shotgun's spray pattern is similar to Reflex.
 
 Weapon attachments:
  - Red Dot Sight
@@ -90,7 +89,7 @@ Grenades:
  - HE Grenade
  - Molotov
 
-Grenade physics will be identical to CS:GO.
+Grenade physics are identical to CS:GO.
 
 ### Hotbar and Inventory ###
 6 slots for your hotbar.  
@@ -111,4 +110,4 @@ Helpful item movement mechanics:
   - Click to pick up, click to drop.
 
 Quick-using items in your inventory: 
- - Use an item by right clicking it. Only some items will have a quick-action, for example: food will have an "Eat" action and guns will have an "Unload" action.
+ - Use an item by right clicking it. Only some items have a quick-action, for example: food has an "Eat" action.
