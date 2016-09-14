@@ -24,6 +24,7 @@ Movement mechanics:
 
 
 ### Gunplay ###
+- You can shoot in any state of movement besides running.
 - Recoil does not reset automatically.
 - 2 modes of shooting: hipfire and ADS (aiming-down-sights).
 - Crosshairs will show for hipfiring.
