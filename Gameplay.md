@@ -89,7 +89,7 @@ Grenades:
 Grenade physics will be identical to CS:GO.
 
 ### Hotbar and Inventory ###
-6 slots for your hotbar.
+6 slots for your hotbar.  
 24 slots for your inventory.  
 30 slots total.
 
