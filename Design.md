@@ -16,14 +16,15 @@ Slopes angled at >75 degrees are unclimbable.
 
 You can safely fall at a distance of <4 body lengths with no penalty.
 
+You cannot stand on another player or use them in any way to boost onto higher areas.
+
 Falling >4 body lengths will break your leg, causing 55% damage and applying a `slowed` debuff for 25 seconds. The amount of damage dealt does not vary between 4-12 body lengths.
 
 Falling >12 body lengths kills you instantly.
 
+
 ###### Advanced Movement ######
  - **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
- - ~~**Slope Jumping** - Running *up* an angled slope before jumping increases the height of the jump.~~
- - ~~**Boosting** - Players are allowed to securely stand on top of another player who's standing on the ground. But, trying to stand on a player who's already standing on another player will cause you to slide off. *See: CS:GO*.~~
 
 
 ### Equipment ###
@@ -67,58 +68,27 @@ The shotgun's spray will have a set pattern similar to Reflex or Quake.
 Grenade physics will be identical to CS:GO.
 
 
-### Construction ###
-The construction system will copy Hurtworld's for the most part.  Especially: All placable construction pieces and objects snap to a 3D grid of 1m intervals.
+### Gunplay ###
+- Recoil does not reset automatically.
+- 2 modes of shooting, hipfire and ADS (aiming-down-sights).
+- Hipfire is pinpoint accurate; massive recoil.
+- ADS is pinpoint accurate; reduced recoil.
+- Crosshairs will show for hipfiring.
 
-All interactable objects in the world interact immediately; on `OnKeyPressed`. The exception to this is doors, which will open when `OnKeyPressed` and `OnKeyReleased` are called within 500ms of eachother. Past 500ms, if the player is still holding 'interact' on a door, the door is considered ***held***. The mechanics of a held door is as follows:
- - A held door is uninteractable by other players until the player holding the door releases his 'interact' key.
- - While holding a door, the player's camera is locked.
- - Doors can be held regardless of ownership privileges.
 
-###### Building Parts ######
- - Foundation
- - Ramp
- - Doorway & Door (as 1 component)
- - Pillar
- - Wall
- - Staircase (Legacy style)
- - Ceiling
- - Window
+### Ammo Mechanics ###
+- All gun ammunitian exists in magazine form. There are no individual bullets.
+- Magazines *always* contain max capacity.
+- Magaines can be crafted or found in loot boxes.
+- Reloading a gun consumes an entire magazine from your inventory.
+- Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
+- (*Maybe*) Instead of deleting leftover ammo, it's converted to equivalent raw materials.
+- Magazines each take up 1 inventory slot.
+- All magazines contain tracers every third shot; as well as three consecutive tracers at the bottom.
 
-###### Machines & Doodads ######
- - Sleeping Bag  
- ` Cheap. Respawn once every 5 mins. Each player is allowed 1 per cell.`
-
- - Bed  
- ` Expensive. Respawn once every 5 mins. No limit.`
-
- - Workbench  
- ` Allows you to craft faster while standing within 4m`
-
- - Camp Fire  
- ` Used for cooking food and smelting ore. Heals nearby players very slowly over time. Disappears when fuel depletes.`
-
- - Barbecue  
- ` Used for cooking food and smelting ore. Heals nearby players very slowly over time.`
-
- - Blast Furnace  
- ` Used for disassembling tools and weapons into raw material.`
- 
- - Totem  
- ` Claims a cell and grants building privileges and door access to anyone authorized. Only 1 totem is allowed per cell. Anyone can authorize/deauthorize by interacting with the totem. A player's authorization cannot be cleared by any other player, only himself. Totems cannot be removed with a building hammer, only destroyed with weapons. Totems have around 1500hp.`
-
- - Small Storage  
- ` 20 slots.`
- 
- - Large Storage  
- ` 50 slots.`
-
- - Barricade  
- ` A small fence; 3m wide x 2m high. Is destructible by weapons and has ~600hp. Can be placed anywhere regardless of totem ownership. Cannot be placed on unclimbable slopes.`
-
- - Transfer box
- ` A 1-slot container you can place on a wall; lootable from both sides of the wall. Doesn't require ownership to place. Useful for transfering items out of a base you're stuck inside. `
-
+Why?
+- Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
+- Ultimately, this is a nerf to guns in some way. This makes melee weapons and bows stronger.
 
 ### Environment ###
 ###### Day/Night Cycles ######
@@ -154,28 +124,6 @@ Quick-using items in your inventory:
 Player names are only visible when standing close to a player and holding your crosshair over them. Similar to CS:GO.
 
 
-### Gunplay ###
-- Recoil does not reset automatically.
-- 2 modes of shooting, hipfire and ADS (aiming-down-sights).
-- Hipfire is pinpoint accurate; massive recoil.
-- ADS is pinpoint accurate; reduced recoil.
-- Crosshairs will show for hipfiring.
-
-
-### Ammo Mechanics ###
-- All gun ammunitian exists in magazine form. There are no individual bullets.
-- Magazines *always* contain max capacity.
-- Magaines can be crafted or found in loot boxes.
-- Reloading a gun consumes an entire magazine from your inventory.
-- Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
-- (*Maybe*) Instead of deleting leftover ammo, it's converted to equivalent raw materials.
-- Magazines each take up 1 inventory slot.
-- All magazines contain tracers every third shot; as well as three consecutive tracers at the bottom.
-
-Why?
-- Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
-- Ultimately, this is a nerf to guns in some way. This makes melee weapons and bows stronger.
-
 
 ### Experimental Miscellaneous Ideas ###
  - A tool should be built to find any terrain geometry angled near the 'gray area' of the walkable/unwalkable range (65-75 degrees). This geometry should be rounded (making it slightly steeper or flatter) to make terrain more readable.
@@ -187,6 +135,3 @@ Why?
  - Shallow lakes, about a foot deep. Used for fishing; players can set fish traps to 'farm' fish. Players can drink from them to restore health.
 
  - When a player is killed, instead of turning their player model into a ragdoll, they could be broken up into vertices and disintegrate. The vertices at the location of the killing blow would expand and travel in the same trajectory as the projectile that caused the killing blow. So a fatal headshot would cause the head to 'explode' while the rest of the body disintegrates in-place almost.
-
- - ~~Cameras.  Expensive; placable on owned walls/cielings. Functionally equivalent to cameras in Siege. Can be viewed remotely from anywhere.~~
-
