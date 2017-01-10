@@ -8,10 +8,11 @@ Basic movement:
  - Jumping
 
 Advanced movement:
-- **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
+- **Circle Jumping** - Works similar to Reflex's Circle Jump.
 
 Movement mechanics:
-- You can only run forward.
+- You can only run forward; you cannot run while sidestrafing.
+- There is air-control.
 - Moving while crouching is completely silent; produces no footstep noise. 
 - Crouching while mid-air pulls your legs up while your upper-body and head are kept in the same position. This detail is important because:
     - It allows you to *crouch-jump* onto high places.
@@ -27,14 +28,15 @@ Movement mechanics:
 - You can shoot in any state of movement besides running.
 - Recoil does not reset automatically.
 - 2 modes of shooting: hipfire and ADS (aiming-down-sights).
-- Crosshairs will show for hipfiring.
 - Hipfire:
     - 100% accurate
     - Massive recoil
+    - On-screen crosshair
 - ADS:
     - 100% accurate
     - Normal recoil
     - Slight amount of zoom
+    - Slight amount of sway
 
 
 ### Ammo Mechanics ###
@@ -67,16 +69,16 @@ Armor tiers:
 
 Tools and weapons:
 
-|            | Damage | Range | Cooldown | Reload Time | Ammo | Recoil | Mode      | Projectile Speed |
-| ---------- | ------ | ----- | -------- | ----------- | ---- | ------ | --------- | ---------------- |
-| Hammer     | -      | -     | -        | -           | -    | -      | -         | -                |
-| Hatchet    | 25     | 2m    | 1s       | -           | -    | -      | -         | -                |
-| Pickaxe    | 45     | 2m    | 3s       | -           | -    | -      | -         | -                |
-| Bow        | 34     | 250m  | 0.4s     | -           | -    | -      | -         | 60m/s            |
-| Pistol     | 34     | 120m  | 0.1s     | 2s          | 8    | 11     | Single    | Hitscan          |
-| Shotgun    | 180    | 30m   | 1.45s    | 4s          | 6    | 15     | Single    | Hitscan          |
-| Auto Rifle | 35     | 130m  | 0.125s   | 3s          | 30   | 8      | Automatic | Hitscan          |
-| Bolt Rifle | 63     | 250m  | 2.2s     | 5s          | 3    | 14     | Single    | Hitscan          |
+|            | Damage | Range | Ammo | Cooldown | Reload Time | Recoil | Mode      | Projectile Speed |
+| ---------- | ------ | ----- | ---- | -------- | ----------- | ------ | --------- | ---------------- |
+| Hammer     | -      | -     | -    | -        | -           | -      | -         | -                |
+| Hatchet    | 25     | 2m    | -    | 1s       | -           | -      | -         | -                |
+| Pickaxe    | 45     | 2m    | -    | 3s       | -           | -      | -         | -                |
+| Bow        | 34     | 250m  | -    | 0.4s     | -           | -      | -         | 60m/s            |
+| Pistol     | 34     | 120m  | 8    | 0.1s     | 2s          | 11     | Single    | Hitscan          |
+| Shotgun    | 180    | 30m   | 6    | 1.45s    | 4s          | 15     | Single    | Hitscan          |
+| Auto Rifle | 35     | 130m  | 30   | 0.125s   | 3s          | 8      | Automatic | Hitscan          |
+| Bolt Rifle | 63     | 250m  | 3    | 2.2s     | 5s          | 14     | Single    | Hitscan          |
 
 The shotgun's spray pattern is similar to Reflex.
 

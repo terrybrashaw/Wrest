@@ -1,10 +1,21 @@
+# Misc #
+
 ### Environment ###
 Day:Night ratio is around 7:3
 
 Nighttime atmosphere is equivalent to *Death Valley* in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires.
 
 
-### In-game Overlays ###
+### Sound Design ###
+Guns
+- 4 main sound components from a firing gun: Gunshot, gunshot echo, bullet crack and bullet whiz.
+- When close enough, you *only* hear the gunshot.
+- When being shot at, if you are inside hitscan range, you hear the bullet crack + gunshot echo.
+- When being shot at, if you are outside hitscan range, you hear the bullet whiz + gunshot echo.
+- When not being shot at, and not close enough to hear the gunshot, you only hear the gunshot echo.
+
+
+### User Interface ###
 Player names are only visible when standing close to a player and holding your crosshair over them. Similar to CS:GO.
 
 
@@ -18,3 +29,14 @@ Player names are only visible when standing close to a player and holding your c
  - Shallow lakes, about a foot deep. Used for fishing; players can set fish traps to 'farm' fish. Players can drink from them to restore health.
 
  - When a player is killed, instead of turning their player model into a ragdoll, they could be broken up into vertices and disintegrate. The vertices at the location of the killing blow would expand and travel in the same trajectory as the projectile that caused the killing blow. So a fatal headshot would cause the head to 'explode' while the rest of the body disintegrates in-place almost.
+
+ - In towns, there should be interactable objects to draw attention of players from a large distance. For example: a bell in a tower you can ring.
+
+
+### Things to keep in mind ###
+Keep walls flat (https://youtu.be/kapUHDkeCE8)
+
+Resin
+
+### Removed ###
+- **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
