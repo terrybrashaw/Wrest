@@ -112,5 +112,22 @@ Helpful item movement mechanics:
   - Click and hold while moving, release to drop.
   - Click to pick up, click to drop.
 
-Quick-using items in your inventory: 
+Quick-using items in your inventory:
  - Use an item by right clicking it. Only some items have a quick-action, for example: food has an "Eat" action.
+
+### Events ###
+Airdrops:
+ - A plane flies over the map, dropping loot crates
+ - Airdrops drop BETWEEN 1-3 crates along the plane's travel path.
+ - Airdrop crates ALWAYS contain items.
+ - Airdrop crates ALWAYS contain some significantly valuable items.
+ - Airdrop crates ALWAYS contain a randomized assortment of items.
+ - Selected airdrop locations follow a pattern. Example:
+    - For towns A, B, C, D, each subsequent airdrop will be dropped at the next location
+    - A, B, C, D, A, B, C, D, A, B, C, D...
+ - Airdrop frequency follows a curve:
+    - Infrequent drops between 0%-35% server capacity
+    - Frequent drops between 35%-80% server capacity
+    - Infrequent drops between 80%-100% server capacity
+    - Infrequent = every 2 hours
+    - Frequent = every hour

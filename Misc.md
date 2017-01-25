@@ -15,11 +15,11 @@ Guns
 - When not being shot at, and not close enough to hear the gunshot, you only hear the gunshot echo.
 
 
-### User Interface ###
+### User interface ###
 Player names are only visible when standing close to a player and holding your crosshair over them. Similar to CS:GO.
 
 
-### Experimental Ideas ###
+### Experimental ideas ###
  - A tool should be built to find any terrain geometry angled near the 'gray area' of the walkable/unwalkable range (65-75 degrees). This geometry should be rounded (making it slightly steeper or flatter) to make terrain more readable.
 
  - Players can be knocked out (or *downed*) instead of killed in some situations. I haven't what these situations are but it shouldn't interfere with impressive kills. For example: getting a killing blow with a headshot should always kill.
@@ -32,11 +32,21 @@ Player names are only visible when standing close to a player and holding your c
 
  - In towns, there should be interactable objects to draw attention of players from a large distance. For example: a bell in a tower you can ring.
 
+### End-game possibilities ###
+Battle Royale:
+ - Before a server-wipe the server goes into a Battle Royale.
+ - Harmful gas closes in on a randomly selected bunker over a period of 15-20 minutes
+ - Last player alive wins.
+
 
 ### Things to keep in mind ###
 Keep walls flat (https://youtu.be/kapUHDkeCE8)
-
+ESP Honeypot
 Resin
+
+
+### Server settings ###
+The server decides which languages are allowed.
 
 ### Removed ###
 - **Bunny Hopping** - While mid-air, landing on a down-angled slope and jumping again within ~50ms of landing will increase velocity.
