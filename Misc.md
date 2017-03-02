@@ -1,4 +1,7 @@
-# Misc #
+### Navigation ###
+* [Construction](Construction.md)
+* [Gameplay](Gameplay.md)
+* **Misc**
 
 ## Environment ##
 * Day:Night ratio is around 7:3

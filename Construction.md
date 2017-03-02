@@ -1,16 +1,19 @@
-# Construction #
+### Navigation ###
+* **Construction**
+* [Gameplay](Gameplay.md)
+* [Misc](Misc.md)
 
-### Terminology ###
+## Terminology ##
 * Block - The smallest unit of space a buildable object can fill. Uniform in dimensions.
 * Cell - The unit of space claimed by placing a totem. Cells are fairly large, containing possibly 50x50x50 blocks.
 
-### Building mechanics ###
+## Building mechanics ##
 * The construction system allows for players to construct buildings and place machines with useful functionality almost anywhere in the world.
 * The construction system mimics other constuction systems in the genre (Rust, Hurtworld) but with significant differences.
 * The construction system is constrained to a Minecraft-like 3D grid.
 
 
-### Building Parts ###
+## Building Parts ##
 |                   | Area (WxDxH)  |
 | ----------------- | ------------- |
 | Foundation        | 4x4x6         |
@@ -23,7 +26,7 @@
 | Window            | 1x1x1         |
 
 
-### Machines & Doodads ###
+## Machines & Doodads ##
 * Totem/Stake/Claim- Claims a cell and grants building privileges and door access to anyone authorized. Only 1 totem is allowed per cell. Anyone can authorize/deauthorize by interacting with the totem. A player's authorization cannot be cleared by any other player, only himself. Totems cannot be removed with a building hammer, only destroyed with weapons. Totems have around 1500hp.
 * Sleeping Bag - Cheap. Respawn once every 5 mins. Each player is allowed 1 per cell.
 * Bed - Expensive. Respawn once every 5 mins. No limit.
@@ -37,7 +40,7 @@
 * Transfer box - A 1-slot container you can place on a wall; lootable from both sides of the wall. Doesn't require ownership to place. Useful for transfering items out of a base you're stuck inside.
 
 
-### Misc. ###
+## Misc. ##
 All interactable objects in the world interact immediately on `OnKeyPressed`. The exception to this is doors, which open when `OnKeyPressed` and `OnKeyReleased` are called within 500ms of eachother. Past 500ms, if the player is still holding 'interact' on a door, the door is considered ***held***. The mechanics of a held door is as follows:
 * A held door is uninteractable by other players until the player holding the door releases his 'interact' key.
 * While holding a door, the player's camera is locked.

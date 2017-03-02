@@ -1,5 +1,8 @@
-# Gameplay #
-[Test](Construction.md)
+### Navigation ###
+* [Construction](Construction.md)
+* **Gameplay**
+* [Misc](Misc.md)
+
 
 ## Movement ##
 Basic movement:
