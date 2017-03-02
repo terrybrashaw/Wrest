@@ -1,10 +1,10 @@
-### Navigation ###
+### Go to ###
 * [Construction](Construction.md)
 * **Gameplay**
 * [Misc](Misc.md)
 
 
-## Movement ##
+### Movement ###
 Basic movement:
 * Running (100% movement speed)
 * Walking (Forward @ 50%, Sidestrafing @ 50%, Backwards @ 35%)
@@ -28,7 +28,7 @@ Movement mechanics:
 * Falling >12 body lengths kills you instantly.
 
 
-## Gunplay ##
+### Gunplay ###
 * Recoil does not reset automatically.
 * You can shoot in any state of movement besides running.
 * 2 modes of shooting: hipfire and ADS (aiming-down-sights).
@@ -43,7 +43,7 @@ Movement mechanics:
     * Slight amount of sway
 
 
-## Ammo Mechanics ##
+### Ammo Mechanics ###
 * All gun ammunition exists in magazine form. There are no individual bullets.
 * Magazines *always* contain max capacity.
 * Magazines can be crafted or found in loot boxes.
@@ -55,7 +55,7 @@ Personal theory on this ammo mechanic:
 * Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
 
 
-## Equipment ##
+### Equipment ###
 Armor slots:
 * Head
 * Body
@@ -86,7 +86,7 @@ Notes:
 * The shotgun's spray pattern is static, similar to Reflex.
 
 
-## Hotbar and Inventory ##
+### Hotbar and Inventory ###
 * 6 slots for your hotbar.  
 * 24 slots for your inventory.  
 * 30 slots total.
@@ -108,7 +108,7 @@ Quick-using items in your inventory:
 * Use an item by right clicking it. Only some items have a quick-action, for example: food has an "Eat" action.
 
 
-## Events ##
+### Events ###
 Airdrops:
 * A plane flies over the map, dropping loot crates
 * Airdrops drop BETWEEN 1-3 crates along the plane's travel path.
