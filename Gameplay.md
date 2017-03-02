@@ -1,4 +1,5 @@
 # Gameplay #
+[Test](Construction.md)
 
 ## Movement ##
 Basic movement:
@@ -82,7 +83,7 @@ Notes:
 * The shotgun's spray pattern is static, similar to Reflex.
 
 
-### Hotbar and Inventory ###
+## Hotbar and Inventory ##
 * 6 slots for your hotbar.  
 * 24 slots for your inventory.  
 * 30 slots total.
@@ -104,7 +105,7 @@ Quick-using items in your inventory:
 * Use an item by right clicking it. Only some items have a quick-action, for example: food has an "Eat" action.
 
 
-### Events ###
+## Events ##
 Airdrops:
 * A plane flies over the map, dropping loot crates
 * Airdrops drop BETWEEN 1-3 crates along the plane's travel path.
