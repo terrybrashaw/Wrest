@@ -115,7 +115,7 @@ Airdrops:
 * Airdrop crates ALWAYS contain items.
 * Airdrop crates ALWAYS contain some significantly valuable items.
 * Airdrop crates ALWAYS contain a randomized assortment of items.
-* Selected airdrop locations follow a pattern. Example:
+* The location selected for the next airdrop follows a repeating pattern. Example:
     * For towns A, B, C, D, each subsequent airdrop will be dropped at the next location
     * A, B, C, D, A, B, C, D, A, B, C, D...
 * Airdrop frequency follows a curve:
