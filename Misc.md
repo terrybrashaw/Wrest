@@ -10,12 +10,13 @@
 
 ### Sound Design ###
 Guns
-* 4 main sound components involved in gun sounds:
-    * Gunshot
-    * Initial wave
-    * Echo
-    * Bullet crack
-    * Bullet whiz
+5 main sound components involved in gun sounds:
+
+1. Gunshot
+2. Initial wave
+3. Echo
+4. Bullet crack
+5. Bullet whiz
 
 * When close to the gunshot source: **Gunshot** followed by a delayed **echo**
 * When far from the source AND near the bullet trajectory AND within weapon hit range: **Bullet crack** followed almost immediately by the **initial wave** followed by an **echo**
