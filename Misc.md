@@ -11,18 +11,19 @@
 ### Sound Design ###
 Guns
 * 4 main sound components involved in gun sounds:
-    1. Gunshot
-    2. Initial wave
-    3. Echo
-    4. Bullet crack
-    5. Bullet whiz
+    * Gunshot
+    * Initial wave
+    * Echo
+    * Bullet crack
+    * Bullet whiz
 
 * When close to the gunshot source: **Gunshot** followed by a delayed **echo**
 * When far from the source AND near the bullet trajectory AND within weapon hit range: **Bullet crack** followed almost immediately by the **initial wave** followed by an **echo**
 * When far from the source AND near the bullet trajectory BUT outside weapon hit range: **Bullet whiz** followed by a slightly delayed **initial wave** followed by an **echo**
 * When far from the source AND far from the bullet trajectory: **Initial wave** followed by an **echo**
 
-With these rules, you can gain some information based on the sounds.
+With these rules, you can gain some information based on the sounds:
+
 1. Most obviously, when being directly shot at, you can tell immediately if you are in range of the player shooting.
 2. Based on the delay between the **initial wave** and the **echo**, you can obtain a rough idea of the distance from you to the shooter. A short delay means you are far; a long delay means you are near.
 
