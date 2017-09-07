@@ -57,18 +57,11 @@ Personal theory on this ammo mechanic:
 
 ### Equipment ###
 Armor slots:
-* Head
-* Body
-* Legs
-* Feet
-
-Armor tiers:
-
-|          | Head  | Body  | Legs  | Feet  |
-| -------- | ----- | ----- | ----- | ----- |
-| Cloth    | 10-10 | 10-10 | 5-5   | 8-8   |
-| Leather  | 10-15 | 10-15 | 10-10 | 10-10 |
-| Kevlar   | 25-25 | 30-30 | 15-15 | 15-15 |
+* Head (2 tiers; Hat < Mask)
+* Torso (2 tiers; T-Shirt < Long Sleeve)
+* Legs (2 tiers; Shorts < Pants)
+* Hands (1 tier)
+* Feet (1 tier)
 
 Tools and weapons:
 
