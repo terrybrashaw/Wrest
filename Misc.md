@@ -52,7 +52,7 @@ Battle Royale:
 ### Things to keep in mind ###
 * Keep walls flat (https://youtu.be/kapUHDkeCE8)
 * ESP Honeypot
-
+* Trains (WoW-style transportation with big platforms that move on a rail)
 
 ### Server settings ###
 * The server decides which languages are allowed.
