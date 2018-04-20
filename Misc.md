@@ -53,6 +53,7 @@ Battle Royale:
 * Keep walls flat (https://youtu.be/kapUHDkeCE8)
 * ESP Honeypot
 * Trains (WoW-style transportation with big platforms that move on a rail)
+* Each type of mob should have its own distinct mechanic, similar to Doom or Serious Sam
 
 ### Server settings ###
 * The server decides which languages are allowed.
