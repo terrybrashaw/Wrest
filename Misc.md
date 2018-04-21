@@ -28,7 +28,6 @@ With these rules, you can gain some information based on the sounds:
 1. Most obviously, when being directly shot at, you can tell immediately if you are in range of the player shooting.
 2. Based on the delay between the **initial wave** and the **echo**, you can obtain a rough idea of the distance from you to the shooter. A short delay means you are far; a long delay means you are near.
 
-
 ### User interface ###
 * Player names are only visible when standing close to a player and holding your crosshair over them. Similar to CS:GO.
 
@@ -41,6 +40,8 @@ With these rules, you can gain some information based on the sounds:
 * Shallow lakes, about a foot deep. Used for fishing; players can set fish traps to 'farm' fish.
 
 * In towns, there should be interactable objects that, when activated, draw attention of players from a large distance. For example: a bell in a tower you can ring.
+
+* When shooting guns, play an additional sound to signal low ammo when ammo is below 7 shots or something.
 
 ### End-game possibilities ###
 Battle Royale:
