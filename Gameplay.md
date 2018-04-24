@@ -31,7 +31,7 @@ Movement mechanics:
 ### Gunplay ###
 * Recoil does not reset automatically.
 * You can shoot in any state of movement besides running.
-* 2 modes of shooting: hipfire and ADS (aiming-down-sights).
+* 2 modes of shooting: hipfire and aiming-down-sights.
 * Hipfire:
     * 100% accurate
     * Massive recoil
@@ -48,11 +48,12 @@ Movement mechanics:
 * Magazines *always* contain max capacity.
 * Magazines can be crafted or found in loot boxes.
 * Reloading a gun consumes an entire magazine from your inventory.
-* Reloading a gun overwrites any leftover ammo. If you have 5 bullets left before reloading, those 5 bullets are deleted.
+* Reloading a gun overwrites any unspent ammo in the gun. If you have 5 bullets left before reloading, those 5 bullets are deleted.
 * Magazines each take up 1 inventory slot.
 
-Personal theory on this ammo mechanic:
-* Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
+> 9/14/16: Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
+
+> 4/23/18: I'm afraid this mechanic might give highly geared players an even greater advantage than they would otherwise have over lower geared players. Of course a highly geared player will be holding many more magazines than a low-tier player and thus can use this ammo mechanic to his advantage, but then the low-tier player has potentially more to gain by killing a player who's carrying a lot of extra ammo.
 
 
 ### Equipment ###
@@ -78,6 +79,9 @@ Tools and weapons:
 Notes:
 * The shotgun's spray pattern is static, similar to Reflex.
 
+Possible weapons that have interesting mechanics but no concrete stats:
+* Spear - Switchable between `melee` and `throw` modes. Similar to Hurtworld's spear.
+* SMG - Auto rifle with low recoil and low damage.
 
 ### Hotbar and Inventory ###
 * 6 slots for your hotbar.  
@@ -98,7 +102,7 @@ Helpful item movement mechanics:
     * Click to pick up, click to drop.
 
 Quick-using items in your inventory:
-* Use an item by right clicking it. Only some items have a quick-action, for example: food has an "Eat" action.
+* Use an item by right clicking it. Only some items have a quick-action, for example: food can be right-clicked to eat it.
 
 
 ### Events ###

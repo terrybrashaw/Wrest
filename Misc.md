@@ -4,7 +4,7 @@
 * **Misc**
 
 ### Environment ###
-* Day:Night ratio is around 7:3
+* Day:Night ratio is around 3:1
 * Nighttime atmosphere is equivalent to *Death Valley* in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires.
 
 
@@ -42,6 +42,8 @@ With these rules, you can gain some information based on the sounds:
 * In towns, there should be interactable objects that, when activated, draw attention of players from a large distance. For example: a bell in a tower you can ring.
 
 * When shooting guns, play an additional sound to signal low ammo when ammo is below 7 shots or something.
+
+* Rust has a pretty good mechanic where farming can be optimized by hitting randomly appearing "X" marks on rocks or trees.
 
 ### End-game possibilities ###
 Battle Royale:
