@@ -45,6 +45,10 @@ With these rules, you can gain some information based on the sounds:
 
 * Rust has a pretty good mechanic where farming can be optimized by hitting randomly appearing "X" marks on rocks or trees.
 
+* I've settled on 3 main rad towns connected by a *main* road. There will of course be other wreckages and ruins and maybe even small undamaged outposts. 
+
+* Have two communication towers in each rad town for communicating with the other rad tows. Each tower has "straight key" morse code machines to send signals, and speakers to receive signals. I think this would be a small win for encouraging interaction between players over long distances. If someone is sending signals from a different rad town, you know where to look for people to fight. (Small note: to emphasize where the towers are leading to, have utility poles connect them along the main road)
+
 ### End-game possibilities ###
 Battle Royale:
 * Before a server-wipe the server goes into a Battle Royale.
@@ -57,6 +61,7 @@ Battle Royale:
 * ESP Honeypot
 * Trains (WoW-style transportation with big platforms that move on a rail)
 * Each type of mob should have its own distinct mechanic, similar to Doom or Serious Sam
+* Anything interactable should have an emmisive green glow pattern somewhere. (Doors, chests, beds, machines)
 
 ### Server settings ###
 * The server decides which languages are allowed.
