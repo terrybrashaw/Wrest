@@ -4,7 +4,8 @@
 
 - **Construction** (Current Page)
 - [Gameplay](Gameplay.md)
-- [Misc](Misc.md)
+- [Misc.](Misc.md)
+- [Dropped Features](Dropped.md)
 
 ## Terminology
 
@@ -14,7 +15,7 @@
 ## Building Mechanics
 
 - The construction system allows for players to construct buildings and place machines with useful functionality almost anywhere in the world.
-- The construction system mimics other constuction systems in the genre (Rust, Hurtworld) but with significant differences.
+- The construction system mimics other construction systems in the genre (Rust, Hurtworld) but with significant differences.
 - The construction system is constrained to a Minecraft-like 3D grid.
 
 ## Building Parts
@@ -42,12 +43,3 @@
 - Small Storage - 25 slots
 - Large Storage - 50 slots. 2x cost of small storage
 - Barricade - Deployable wall for defense. 3 blocks wide by 2 blocks high. Is destructible by weapons and has ~600hp. Can be placed anywhere regardless of totem ownership. Cannot be placed on unclimbable slopes. This is the only object in the game not restricted to the construction grid which means it can be placed at any angle.
-- Transfer box - A 1-slot container you can place on a wall; lootable from both sides of the wall. Doesn't require ownership to place. Useful for transfering items out of a base you're stuck inside.
-
-## Miscellaneous
-
-All interactable objects in the world interact immediately on `OnKeyPressed`. The exception to this is doors, which open when `OnKeyPressed` and `OnKeyReleased` are called within 500ms of eachother. Past 500ms, if the player is still holding 'interact' on a door, the door is considered **_held_**. The mechanics of a held door is as follows:
-
-- A held door is uninteractable by other players until the player holding the door releases his 'interact' key.
-- While holding a door, the player's camera is locked.
-- Doors can be held regardless of ownership privileges.

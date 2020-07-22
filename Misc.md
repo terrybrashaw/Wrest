@@ -1,15 +1,16 @@
-# Misc
+# Miscellaneous
 
 ## Table of Contents
 
 - [Construction](Construction.md)
 - [Gameplay](Gameplay.md)
-- **Misc** (Current Page)
+- **Misc.** (Current Page)
+- [Dropped Features](Dropped.md)
 
 ## Environment
 
 - Day:Night ratio is around 3:1
-- Nighttime atmosphere is equivalent to _Death Valley_ in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires.
+- Nighttime atmosphere is equivalent to _Death Valley_ in BF:3. Perfectly visible, blue post-process tint, brightened lights/fires/tracers.
 
 ## Sound Design
 
@@ -40,7 +41,7 @@ With these rules, you can gain some information based on the sounds:
 
 - A tool should be built to find any terrain geometry angled near the 'gray area' of the walkable/unwalkable range (65-75 degrees). This geometry should be rounded (making it slightly steeper or flatter) to make terrain more readable.
 
-- I'd like to explore the concept of food items being the main method of healing. There would be a different food type that drops from each mob that can be eaten raw, cooked, or combined with other items to create more exotic food. Each food item would have it's own advantage.
+- I'd like to explore the concept of food items being the main method of healing. There would be a different food type that drops from each mob that can be eaten raw, cooked, or combined with other items to create more exotic food. Each food item would have it's own advantage. This would need to be balanced by making it obvious which food was/is being eaten. Either through sounds or particle effects.
 
 - Shallow lakes, about a foot deep. Used for fishing; players can set fish traps to 'farm' fish.
 
@@ -52,7 +53,7 @@ With these rules, you can gain some information based on the sounds:
 
 - I've settled on 3 main rad towns connected by a _main_ road. There will of course be other wreckages and ruins and maybe even small undamaged outposts.
 
-- Have two communication towers in each rad town for communicating with the other rad tows. Each tower has "straight key" morse code machines to send signals, and speakers to receive signals. I think this would be a small win for encouraging interaction between players over long distances. If someone is sending signals from a different rad town, you know where to look for people to fight. (Small note: to emphasize where the towers are leading to, have utility poles connect them along the main road)
+- Have two communication towers in each rad town for communicating with the other rad tows. Each tower has "straight key" mores code machines to send signals, and speakers to receive signals. I think this would encourage interaction between players over long distances. If someone is sending signals from a different rad town, you know where to look for people to fight. To emphasize where the towers are leading to, have utility poles connect them along the main road.
 
 ## End-game possibilities
 
@@ -66,13 +67,14 @@ Battle Royale:
 
 - Keep walls flat <https://youtu.be/kapUHDkeCE8>
 - ESP Honeypot
+- 8-second first-person kill cam
 - Trains (WoW-style transportation with big platforms that move on a rail)
 - Each type of mob should have its own distinct mechanic, similar to Doom or Serious Sam
-- Anything interactable should have an emmisive green glow pattern somewhere. (Doors, chests, beds, machines)
+- Anything interactable should have an emissive green glow pattern somewhere. (Doors, chests, beds, machines)
 
 ## Server settings
 
-- The server decides which languages are allowed.
+- The admins decides which languages are allowed.
 
 ## Removed
 

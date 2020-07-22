@@ -4,7 +4,8 @@
 
 - [Construction](Construction.md)
 - **Gameplay** (Current Page)
-- [Misc](Misc.md)
+- [Misc.](Misc.md)
+- [Dropped Features](Dropped.md)
 
 ## Movement
 
@@ -30,7 +31,7 @@ Movement mechanics:
 - Slopes angled at >75 degrees are unclimbable, you simply slide down.
 - You cannot stand on another player or use them in any way to boost onto higher areas.
 - You can safely fall a distance of <4 body lengths with no penalty.
-- Falling >4 body lengths will break your leg, causing 55% damage and applying a `slowed` debuff for 25 seconds. The amount of damage dealt does not vary between 4-12 body lengths.
+- Falling >4 body lengths will break your leg, causing 55% damage and applying a slow effect for 25 seconds. The amount of damage dealt does not vary between 4-12 body lengths.
 - Falling >12 body lengths kills you instantly.
 
 ## Gunplay
@@ -45,21 +46,6 @@ Movement mechanics:
 - ADS:
   - 100% accurate
   - Normal recoil
-  - Slight amount of zoom
-  - Slight amount of sway
-
-## Ammo Mechanics
-
-- All gun ammunition exists in magazine form. There are no individual bullets.
-- Magazines _always_ contain max capacity.
-- Magazines can be crafted or found in loot boxes.
-- Reloading a gun consumes an entire magazine from your inventory.
-- Reloading a gun overwrites any unspent ammo in the gun. If you have 5 bullets left before reloading, those 5 bullets are deleted.
-- Magazines each take up 1 inventory slot.
-
-> 9/14/16: Adds extra complexity/skill to fights. Instead of reloading being a mindless action (always spam R behind corners) you'll need to decide if wasting ammo is worth having extra ammo available in the next fight.
-
-> 4/23/18: I'm afraid this mechanic might give highly geared players an even greater advantage than they would otherwise have over lower geared players. Of course a highly geared player will be holding many more magazines than a low-tier player and thus can use this ammo mechanic to his advantage, but then the low-tier player has potentially more to gain by killing a player who's carrying a lot of extra ammo.
 
 ## Equipment
 
@@ -89,46 +75,36 @@ Notes:
 
 Possible weapons that have interesting mechanics but no concrete stats:
 
-- Spear - Switchable between `melee` and `throw` modes. Similar to Hurtworld's spear.
+- Spear - Toggle between _melee_ and _throw_ modes. Similar to Hurtworld's spear.
 - SMG - Auto rifle with low recoil and low damage.
 
 ## Hotbar and Inventory
 
-- 6 slots for your hotbar.
 - 24 slots for your inventory.
+- 6 slots for your hotbar.
 - 30 slots total.
 
-Moving items in your inventory:
+The mechanics of inventory management prioritize a high skill ceiling. Items must be manually moved from slot to slot; there is no automated looting/unlooting.
 
 - Move an item by dragging and dropping onto an empty slot.
 - Swap an item by dragging and dropping onto another item.
 - Drop an item by dragging and dropping outside of the inventory window.
-
-Helpful item movement mechanics:
-
-- Split a stack of items in half by holding `Shift` before dragging and dropping.
-- Pick up 1 from a stack of items by holding `Ctrl` before dragging and dropping.
-- Pick up all-but-1 from a stack of items by holding `Alt` before dragging and dropping.
-- To "drag and drop" items, they can either be:
-  - Click and hold while moving, release to drop.
-  - Click to pick up, click to drop.
-
-Quick-using items in your inventory:
-
-- Use an item by right clicking it. Only some items have a quick-action, for example: food can be right-clicked to eat it.
+- Split a stack of items in half by holding <kbd>Shift</kbd> while dragging and dropping.
+- Pick up 1 item from a stack of items by holding <kbd>Ctrl</kbd> while dragging and dropping.
+- Pick up all-but-1 item from a stack of items by holding <kbd>Alt</kbd> while dragging and dropping.
+- Use an item by right clicking it (if applicable). For example: food can be right-clicked to eat.
 
 ## Events
 
-Airdrops:
+### Airdrops
 
 - A plane flies over the map, dropping loot crates
 - Airdrops drop BETWEEN 1-3 crates along the plane's travel path.
 - Airdrop crates ALWAYS contain items.
 - Airdrop crates ALWAYS contain some significantly valuable items.
 - Airdrop crates ALWAYS contain a randomized assortment of items.
-- The location selected for the next airdrop follows a repeating pattern. Example:
-  - For towns A, B, C, D, each subsequent airdrop will be dropped at the next location
-  - A, B, C, D, A, B, C, D, A, B, C, D...
+- The location selected for the next airdrop follows a repeating pattern. If there are 4 airdrop locations — A, B, C, D — the locations would be chosen repeating order: A, B, C, D, A, B, C, D, A, B, C, D...
+- The repeating pattern of airdrops locations is server-dependent; each server has its own unique pattern.
 - Airdrop frequency follows a curve:
   - Infrequent drops between 0%-35% server capacity
   - Frequent drops between 35%-80% server capacity
